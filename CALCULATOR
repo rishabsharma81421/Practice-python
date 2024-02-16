@@ -1,0 +1,26 @@
+def add(a,b):
+    return a + b
+def sub(a,b):
+    return a - b
+def multiply(a,b):
+    return  a * b
+def divide(a,b):
+    return a / b
+num1= float(input("Please first number daliye sir/mam = "))
+num2= float(input("second bhi daal hi do ab = "))
+operation = input("Hnjii ki chahiye? (Add krne k lie + dabaye, subtraction k liye - dbaye, guna krna chahte ho toh bhiya * dbao, divide kroge toh / dbao): ")
+
+
+if operation == "+":
+    result=add(num1,num2)
+
+elif operation == "-":
+    result=sub(num1,num2)
+elif operation == "*":
+    result=multiply(num1,num2)
+elif operation =="/":
+    result=divide(num1,num2)
+else:
+    print("hor bhai ghar sab thik kaam krle yar koi = ")
+
+print("Le bhai hogyea tera kamm = ", result)
